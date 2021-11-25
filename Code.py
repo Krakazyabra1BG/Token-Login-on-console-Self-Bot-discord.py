@@ -1,8 +1,11 @@
-```
-token = input('Enter your token ...')
+import discord
+from discord.ext import commands
+import os
+import asyncio 
+
+client commands.Bot(command_prefix = '+', self_bot = True)
+
+
+token = input('Enter your token here...')
 
 client.run(token)
-```
-Will now be automatically entered into
-```client.run```- will be considered as the authorization token of your 
-Account
